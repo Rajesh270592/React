@@ -1,0 +1,8 @@
+Store - Component where entire state of app is stored
+
+Action - Action describes what happend and contain type and payload
+Type - uniquely identify the perticular Action
+ 
+
+Reducer - function that specify how the app state changes in response to action
+          It takes two argument current state and action and return a new state.

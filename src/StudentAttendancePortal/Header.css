@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1400px;
+}
+
+
+.header{
+    background-color: rgb(143, 75, 206);
+   display: flex;
+   justify-content: space-around;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+}
+
+.left-header>ul>li{
+text-decoration: none;
+display: inline;
+margin: 20px;
+color: white;
+}
+
+.left-header{
+    margin-left: 60px;
+}
+
+.right-header>i{
+color: white;
+margin: 10px;
+}

@@ -1,0 +1,52 @@
+.insight{
+    background-color: rgb(37, 37, 77);
+    color: white;
+}
+
+.insight-part1{
+    text-align: center;
+}
+.insight-part2{
+    display: flex;
+    justify-content: center;
+  padding-top: 30px;
+}
+.insight-part2-a{
+    padding: 20px;
+}
+.insight-part2-b{
+    padding: 20px;
+}
+.insight-part2-c{
+    padding: 20px;
+}
+
+.insight-part2-a>i{
+ background-color: purple;
+  border: none;
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+  margin: 4px 2px;
+    border-radius: 50px;
+}
+
+.insight-part2-b>i{
+  background-color: green;
+  border: none;
+  color: lightgreen;
+  padding: 20px;
+  font-size: 20px;
+  margin: 4px 2px;
+ border-radius: 50px;
+}
+
+.insight-part2-c>i{
+    background-color: orange;
+  border: none;
+  color: lightcoral;
+  padding: 20px;
+  font-size: 20px;
+  margin: 4px 2px;
+ border-radius: 50px;
+}

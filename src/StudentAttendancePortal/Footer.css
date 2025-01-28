@@ -1,0 +1,14 @@
+.footer{
+    display: flex ;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 77);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-right>ul>li{
+    text-decoration: none;
+    display: inline;
+    margin: 30px;
+}

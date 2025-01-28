@@ -1,0 +1,10 @@
+.ac-descrip{
+    background-color: rgb(143, 75, 206);
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ac-descrip>p{
+    padding-top: 30px;
+}

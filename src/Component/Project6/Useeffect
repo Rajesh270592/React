@@ -1,0 +1,74 @@
+import React, { useEffect, useState } from "react";
+import UserDetails from "./UserDetails";
+
+
+
+
+
+function Useeffect() {
+
+
+
+
+
+    let [data, setData] = useState([])
+
+    useEffect(() => {
+        setData(UserDetails)
+    }, [])
+
+   let handleDelete = (id)=>{
+    if (id !== undefined) {
+        let filtering = data.filter((details) => {
+            return details.id !== id
+        })
+        setData(filtering)
+    }
+   }
+    
+
+    return (
+
+        <div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {data.map((element, index) => {
+                        return (
+                            <tr>
+                                <td>{index + 1}</td>
+                                <td>{element.id}</td>
+                                <td>{element.name}</td>
+                                <td>{element.age}</td>
+                                <td>{element.address}</td>
+                                <td>
+                                    <button>Edit</button>
+                                    <button onClick={() => {handleDelete(element.id)}}>Delete</button>
+                                </td>
+                            </tr>
+                        )
+
+                    })}
+                </tbody>
+            </table>
+
+        </div>
+
+    )
+}
+
+
+
+
+
+
+export default Useeffect

@@ -1,0 +1,11 @@
+.upload{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(37, 37, 77);
+    color: white;
+}
+
+.upload>p{
+    padding: 20px;
+}

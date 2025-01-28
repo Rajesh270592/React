@@ -1,0 +1,14 @@
+/* .watchsection img{
+  width: 300px;
+} */
+.watchsection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 i{
+    font-size: 50px;
+}
+.sec1{
+  display: flex;
+}

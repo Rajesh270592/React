@@ -1,0 +1,16 @@
+.hello-section{
+    text-align: center;
+    color: white;
+    background-color: rgb(143, 75, 206);
+    padding-bottom: 30px;
+    /* flex-direction: ; */
+   
+
+}
+
+.rotate{
+    background-color: rgb(143, 75, 206);
+    height: 50px;
+    width: 1400px;
+    /* rotate:-5deg; */
+}

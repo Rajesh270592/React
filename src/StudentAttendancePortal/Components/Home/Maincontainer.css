@@ -1,0 +1,12 @@
+
+.main-container{
+    background-color: rgb(37, 37, 77);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-cintainer-left{
+    padding-top: 150px;
+    font-size: 17px;
+}
